@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+   
+    height: 100vh auto;
+    
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    background:url(images/pexels-photo-1194405.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+   border-color: blue;
+  
+   
+ }
+ img{
+position: relative;
+top: 15px;
+
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 100px;
+
+ }
+ .title {
+    position: relative;
+    bottom: 465px;
+    color: white;
+    margin: 112px;
+    border: 2px solid white;
+    justify-content: center;
+   text-align: center;
+    height: 480px;
+   
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+   
+ }
+
+ ul {
+    display: flex;
+    justify-content: space-around;
+    
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+  
+ }
+ ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 0 20px;
+    transition: all 0.3s ease-in-out;
+    top: 29px;
+    position: relative;
+ }
+ ul li a:hover {
+    position: relative;
+    background-color: white;
+    color: black;
+  cursor: pointer;
+  border-radius: 30px;
+ 
+  
+ }
+.active {
+    position: relative;
+    right: 19px;
+
+border-radius: 29px;
+}
+button {
+
+padding: 9px 15px;
+background-color: transparent;
+color: white;
+transition: all 1s ease-in-out;
+}
+  button:hover {
+    background-color: white;
+    color:black ;
+    border-radius: 30px;
+  }
+
+ .Admins {
+    position: relative;
+    left: 12px;
+     border-radius: 10px;
+     background-color: rgb(8, 45, 59);
+     top: 34px;
+ }
+ h1 {
+    color: skyblue;
+    font-size: 40px;
+    bottom: 20px;
+    
+ }
+    .btn {
+        border-radius: 10px;
+        background-color: rgb(8, 45, 59);
+    }
+    p {
+
+        font-size: 29px;
+
+    }
+    .footer-container {
+        position: relative;
+        bottom: 200px;
+        left: 860px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        height: 300px;
+        width:450px ;
+        border-radius: 20px;
+        background-color: blanchedalmond;
+transition: all 1s ease-in-out;
+
+
+    }
+    .icons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        margin: 12px 13px 42px;
+        position: relative;
+        top: 30px;
+       
+    }
+    .icons a i{
+        font-size: 50px;
+        color: rgb(55, 15,255);
+        transition: all 1s ease-in-out;
+    }
+    .insta{
+        position: relative;
+        right: 28px;
+    }
+    h2 {
+        color: black;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        position: relative;
+        left: 40px;
+    }
+    .icons a:hover i{
+        background-color: #19d113;
+        border-radius: 10px;
+
+    }
+    .input-group {
+        position: relative;
+        right: 700px;
+    bottom: 20px;
+    }
+    input {
+        padding: 9px;
+        margin: 10px auto;
+        border-radius: 20px;
+        width: 250px;
+       background-color: #d5d4d6;
+       color: rgb(14, 13, 13);
+    }
+    textarea {
+        background-color: #d5d4d6;
+    }
+    .send {
+        background-color: #d5d4d6;
+        border-radius: 20px;
+        color: black;
+        position: relative;
+        top: 0px;
+        right: 3px;
+        width: 250px;
+        
+    }
+.send:hover {
+    background-color: var(--background-color);
+}
+footer{
+    text-align: center;
+    border: 2px solid black;;
+
+}
+.my-email{
+    position: relative;
+    bottom: 35px;
+  
+}
+.my-email a {
+    text-decoration: none;
+    color: var(--footer--);
+}
+.my-email a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+.manager{
+    position: relative;
+    bottom: 800px;
+    right: 750px;
+
+    width: 350px;
+    height: 450px;
+    background-color: transparent;
+    backdrop-filter: blur(200px);
+}
+.manager-img {
+    border: none;
+    border-radius: 1px;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 90px;
+    border: 2px solid white;
+    box-shadow: black;
+
+}
+
+
